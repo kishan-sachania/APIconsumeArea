@@ -1,0 +1,70 @@
+﻿@using System.Data;
+@model JobManagementSystemAdmin.Areas.Education.Models.EducationListResponse;
+
+@{
+    Layout = "_Layout";
+}
+
+<div class="main-panel">
+
+
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                EDUCATION
+                            </tr>
+                            <tr>
+                                <td><a asp-area="Education" asp-controller="Education" asp-action="Insert" class="btn btn-outline-primary">Add Connection</a></td>
+                            </tr>
+                            <tr>
+                                <td>USER</td>
+                                <th> @Html.DisplayName("SchoolName") </th>
+                                <th> @Html.DisplayName("Degree") </th>
+                                <th> @Html.DisplayName("StudyField") </th>
+                                <th> @Html.DisplayName("Start Date") </th>
+                                <th> @Html.DisplayName("End Date") </th>
+                                
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var row in Model.data)
+                            {
+                                <tr>
+                                    <td class="py-1">
+                                        <img src="~/images/faces-clipart/pic-1.png" alt="image" />
+                                    </td>
+                                    <td>@row.schoolName  </td>
+                                    <td> @row.degree </td>
+                                    <td>@row.studyField</td>
+                                    <td> @row.startDate </td>
+                                    <td> @row.endDate</td>
+                                    <td>
+                                        @using (Html.BeginForm("Edit", "Education", FormMethod.Post))
+                                        {
+                                        <td>@Html.Hidden("ID",row.educationID)</td>
+                                        <td><button class="btn btn-outline-success">Edit</button></td>
+
+                                        }
+                                    </td>
+                                    <td>
+                                        @using (Html.BeginForm("DeleteEducation", "Education", FormMethod.Post))
+                                        {
+                                        <td>@Html.Hidden("ID",row.educationID)</td>
+                                        <td><button class="btn btn-outline-danger">Delete</button></td>
+
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

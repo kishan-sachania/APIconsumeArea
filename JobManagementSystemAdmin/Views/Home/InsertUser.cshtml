@@ -1,0 +1,29 @@
+﻿@using System.Data;
+@model User
+@using (Html.BeginForm("Insert", "Home", FormMethod.Post))
+{
+<div class="row">
+    <div class="col-md-6 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Default form</h4>
+    
+                    <div>@Html.HiddenFor(model=>model.userId)</div>
+                    <div>@Html.LabelFor(model=>model.name)</div>
+                    <div>@Html.TextBoxFor(model=>model.name,new { @class = "form-control text-light" })</div>
+                    <div>@Html.LabelFor(model=>model.password)</div>
+                    <div> @Html.TextBoxFor(model=>model.password,new { @class = "form-control text-light" })</div>
+                    <div>@Html.LabelFor(model=>model.email)</div>
+                    <div>@Html.TextBoxFor(model=>model.email,new { @class = "form-control text-light" })</div>
+                    <div>@Html.LabelFor(model=>model.location)</div>
+                    <div>@Html.TextBoxFor(model=>model.location,new { @class = "form-control text-light" })</div>
+                    <div>
+                        <button type="submit" class="btn btn-outline-primary mr-2 mt-2">Submit</button>
+                    </div>
+     
+               
+            </div>
+        </div>
+    </div>
+</div>
+}

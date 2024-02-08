@@ -1,0 +1,38 @@
+﻿@using System.Data;
+@model JobManagementSystemAdmin.Areas.Education.Models.Educationall;
+
+@{
+    Layout = "_Layout";
+}
+@using (Html.BeginForm("Insert", "Education", FormMethod.Post))
+{
+    <div class="row">
+        <div class="col-md-6 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Default form</h4>
+
+                    <div>@Html.HiddenFor(model=>model.educationID)</div>
+                    <div>@Html.LabelFor(model=>model.schoolName)</div>
+                    <div>@Html.TextBoxFor(model=>model.schoolName,new { @class = "form-control text-light" })</div>
+                    <div>@Html.LabelFor(model=>model.degree)</div>
+                    <div> @Html.TextBoxFor(model=>model.degree,new { @class = "form-control text-light" })</div>
+                    <div>@Html.LabelFor(model=>model.studyField)</div>
+                    <div>@Html.TextBoxFor(model=>model.studyField,new { @class = "form-control text-light" })</div>
+                    <div>@Html.LabelFor(model=>model.startDate)</div>
+                    <div>@Html.TextBoxFor(model=>model.startDate,new { @class = "form-control text-light" })</div>
+                    <div>@Html.LabelFor(model=>model.endDate)</div>
+                    <div>@Html.TextBoxFor(model=>model.endDate,new { @class = "form-control text-light" })</div>
+                    <div>@Html.LabelFor(model=>model.userID)</div>
+                    <div>@Html.TextBoxFor(model=>model.userID,new { @class = "form-control text-light" })</div>
+
+                    <div>
+                        <button type="submit" class="btn btn-outline-primary mr-2 mt-2">Submit</button>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+}

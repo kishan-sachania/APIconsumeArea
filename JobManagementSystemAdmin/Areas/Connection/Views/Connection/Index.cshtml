@@ -1,0 +1,70 @@
+﻿@using System.Data;
+@model JobManagementSystemAdmin.Areas.Connection.Models.ConnectionListResponse
+
+@{
+    Layout = "_Layout";
+}
+
+<div class="main-panel">
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                CONNECTION
+                            </tr>
+                            @*<tr>
+                                <td><a asp-area="Connection" controller="Connection" asp-action="Insert" class="btn btn-outline-primary">Add Connection</a></td>
+                            </tr>*@
+                            <tr>
+                                <th> @Html.DisplayName("ConnectionId") </th>
+                                <th> @Html.DisplayName("ConnectionUid") </th>
+                                <th> @Html.DisplayName("ConnectionStatus") </th>
+                              
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if(Model.data.Count > 0)
+                            {
+                                @foreach (var row in Model.data)
+                                {
+                                    <tr>
+                                        <td class="py-1">
+                                            <img src="~/images/faces-clipart/pic-1.png" alt="image" />
+                                        </td>
+                                        <td>@row.connectionId  </td>
+                                        <td> @row.connectionUid </td>
+                                        <td>
+                                            @row.connectionStatus
+                                        </td>
+
+                                        <td>
+                                            @using (Html.BeginForm("DeleteConnection", "Connection", FormMethod.Post))
+                                            {
+                                            <td>@Html.Hidden("ID",row.connectionId)</td>
+                                            <td><button class="btn btn-outline-danger">Delete</button></td>
+
+                                            }
+                                        </td>
+                                    </tr>
+                                }
+                            }else{
+                                
+                                <tr>
+                                    <h1>
+                                        NONE TO SHOW
+                                    </h1>
+                                    
+                                </tr>
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

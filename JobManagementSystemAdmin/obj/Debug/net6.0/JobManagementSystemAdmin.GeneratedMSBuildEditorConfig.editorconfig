@@ -1,0 +1,117 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = JobManagementSystemAdmin
+build_property.RootNamespace = JobManagementSystemAdmin
+build_property.ProjectDir = C:\Users\Kishan\source\repos\JobManagementSystemAdmin\JobManagementSystemAdmin\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Kishan\source\repos\JobManagementSystemAdmin\JobManagementSystemAdmin
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Kishan/source/repos/JobManagementSystemAdmin/JobManagementSystemAdmin/Areas/Connection/Views/Connection/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29ubmVjdGlvblxWaWV3c1xDb25uZWN0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kishan/source/repos/JobManagementSystemAdmin/JobManagementSystemAdmin/Areas/Connection/Views/Connection/InsertConnection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29ubmVjdGlvblxWaWV3c1xDb25uZWN0aW9uXEluc2VydENvbm5lY3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kishan/source/repos/JobManagementSystemAdmin/JobManagementSystemAdmin/Areas/Connection/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29ubmVjdGlvblxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kishan/source/repos/JobManagementSystemAdmin/JobManagementSystemAdmin/Areas/Education/Views/Education/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRWR1Y2F0aW9uXFZpZXdzXEVkdWNhdGlvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kishan/source/repos/JobManagementSystemAdmin/JobManagementSystemAdmin/Areas/Education/Views/Education/InsertEducation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRWR1Y2F0aW9uXFZpZXdzXEVkdWNhdGlvblxJbnNlcnRFZHVjYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kishan/source/repos/JobManagementSystemAdmin/JobManagementSystemAdmin/Areas/Education/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRWR1Y2F0aW9uXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kishan/source/repos/JobManagementSystemAdmin/JobManagementSystemAdmin/Areas/Experience/Views/Experience/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRXhwZXJpZW5jZVxWaWV3c1xFeHBlcmllbmNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kishan/source/repos/JobManagementSystemAdmin/JobManagementSystemAdmin/Areas/Experience/Views/Experience/InsertExperience.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRXhwZXJpZW5jZVxWaWV3c1xFeHBlcmllbmNlXEluc2VydEV4cGVyaWVuY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kishan/source/repos/JobManagementSystemAdmin/JobManagementSystemAdmin/Areas/Experience/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRXhwZXJpZW5jZVxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kishan/source/repos/JobManagementSystemAdmin/JobManagementSystemAdmin/Areas/Industry/Views/Industry/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW5kdXN0cnlcVmlld3NcSW5kdXN0cnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kishan/source/repos/JobManagementSystemAdmin/JobManagementSystemAdmin/Areas/Industry/Views/Industry/InsertIndustry.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW5kdXN0cnlcVmlld3NcSW5kdXN0cnlcSW5zZXJ0SW5kdXN0cnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kishan/source/repos/JobManagementSystemAdmin/JobManagementSystemAdmin/Areas/Industry/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW5kdXN0cnlcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kishan/source/repos/JobManagementSystemAdmin/JobManagementSystemAdmin/Areas/Like/Views/Like/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTGlrZVxWaWV3c1xMaWtlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kishan/source/repos/JobManagementSystemAdmin/JobManagementSystemAdmin/Areas/Like/Views/Like/InsertLike.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTGlrZVxWaWV3c1xMaWtlXEluc2VydExpa2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kishan/source/repos/JobManagementSystemAdmin/JobManagementSystemAdmin/Areas/Like/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTGlrZVxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kishan/source/repos/JobManagementSystemAdmin/JobManagementSystemAdmin/Areas/Post/Views/Post/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9zdFxWaWV3c1xQb3N0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kishan/source/repos/JobManagementSystemAdmin/JobManagementSystemAdmin/Areas/Post/Views/Post/InsertPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9zdFxWaWV3c1xQb3N0XEluc2VydFBvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kishan/source/repos/JobManagementSystemAdmin/JobManagementSystemAdmin/Areas/Post/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUG9zdFxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kishan/source/repos/JobManagementSystemAdmin/JobManagementSystemAdmin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kishan/source/repos/JobManagementSystemAdmin/JobManagementSystemAdmin/Views/Home/InsertUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnNlcnRVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kishan/source/repos/JobManagementSystemAdmin/JobManagementSystemAdmin/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kishan/source/repos/JobManagementSystemAdmin/JobManagementSystemAdmin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kishan/source/repos/JobManagementSystemAdmin/JobManagementSystemAdmin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kishan/source/repos/JobManagementSystemAdmin/JobManagementSystemAdmin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kishan/source/repos/JobManagementSystemAdmin/JobManagementSystemAdmin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-m9pv43wxbd

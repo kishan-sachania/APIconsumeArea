@@ -1,0 +1,33 @@
+﻿@using System.Data;
+@model JobManagementSystemAdmin.Areas.Like.Models.Likeall;
+
+@{
+    Layout = "_Layout";
+}
+@using (Html.BeginForm("Insert", "Like", FormMethod.Post))
+{
+    <div class="row">
+        <div class="col-md-6 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Default form</h4>
+
+                    <div>@Html.HiddenFor(model=>model.likeID)</div>
+                    <div>@Html.LabelFor(model=>model.count)</div>
+                    <div>@Html.TextBoxFor(model=>model.count,new { @class = "form-control text-light" })</div>
+                    <div>@Html.LabelFor(model=>model.userID)</div>
+                    <div>@Html.TextBoxFor(model=>model.userID,new { @class = "form-control text-light" })</div>
+                    <div>@Html.LabelFor(model=>model.postID)</div>
+                    <div>@Html.TextBoxFor(model=>model.postID,new { @class = "form-control text-light" })</div>
+                    
+
+                    <div>
+                        <button type="submit" class="btn btn-outline-primary mr-2 mt-2">Submit</button>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+}

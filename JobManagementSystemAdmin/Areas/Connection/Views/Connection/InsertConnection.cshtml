@@ -1,0 +1,29 @@
+﻿@using System.Data;
+@model JobManagementSystemAdmin.Areas.Connection.Models.Connectionall
+@{
+    Layout = "_Layout";
+}
+@using (Html.BeginForm("Insert", "Connection", FormMethod.Post))
+{
+<div class="row">
+    <div class="col-md-6 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Coonection form</h4>
+    
+                    <div>@Html.HiddenFor(model=>model.connectionId)</div>
+                    <div>@Html.LabelFor(model=>model.connectionUid)</div>
+                    <div>@Html.TextBoxFor(model=>model.connectionUid,new { @class = "form-control text-light" })</div>
+                    <div>@Html.LabelFor(model=>model.connectionStatus)</div>
+                    <div> @Html.TextBoxFor(model=>model.connectionStatus,new { @class = "form-control text-light" })</div>
+                   
+                    <div>
+                        <button type="submit" class="btn btn-outline-primary mr-2 mt-2">Submit</button>
+                    </div>
+     
+               
+            </div>
+        </div>
+    </div>
+</div>
+}

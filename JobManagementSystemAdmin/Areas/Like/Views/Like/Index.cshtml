@@ -1,0 +1,54 @@
+﻿@using System.Data;
+@model JobManagementSystemAdmin.Areas.Like.Models.LikeListResponse;
+
+@{
+    Layout = "_Layout";
+}
+
+<div class="main-panel">
+
+
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                LIKE
+                            </tr>
+                            <tr>
+                                <td><a asp-area="Like" asp-controller="Like" asp-action="Insert" class="btn btn-outline-primary">Add Like </a></td>
+                            </tr>
+                            <tr>
+                                <td>USER</td>
+                                <th> @Html.DisplayName("Like") </th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var row in Model.data)
+                            {
+                                <tr>
+                                    <td class="py-1">
+                                        <img src="~/images/faces-clipart/pic-1.png" alt="image" />
+                                    </td>
+                                    <td>@row.count</td>
+                                   
+                                    <td>
+                                        @using (Html.BeginForm("DeleteLike", "Like", FormMethod.Post))
+                                        {
+                                        <td>@Html.Hidden("ID",row.likeID)</td>
+                                        <td><button class="btn btn-outline-danger">Delete</button></td>
+
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

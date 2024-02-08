@@ -1,0 +1,67 @@
+﻿@using System.Data;
+@model JobManagementSystemAdmin.Areas.Post.Models.PostListResponse;
+
+@{
+    Layout = "_Layout";
+}
+
+<div class="main-panel">
+
+
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                POST
+                            </tr>
+                            <tr>
+                                <td><a asp-area="Post" asp-controller="Post" asp-action="Insert" class="btn btn-outline-primary">Add Post</a></td>
+                            </tr>
+                            <tr>
+                                <td>USER</td>
+                                <th> @Html.DisplayName("Content") </th>
+                                <th> @Html.DisplayName("Postdate") </th>
+                               
+                                
+
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var row in Model.data)
+                            {
+                                <tr>
+                                    <td class="py-1">
+                                        <img src="~/images/faces-clipart/pic-1.png" alt="image" />
+                                    </td>
+                                    <td>@row.content </td>
+                                    <td> @row.postdate</td>
+                                   
+                                    <td>
+                                        @using (Html.BeginForm("Edit", "Post", FormMethod.Post))
+                                        {
+                                        <td>@Html.Hidden("ID",row.postID)</td>
+                                        <td><button class="btn btn-outline-success">Edit</button></td>
+
+                                        }
+                                    </td>
+                                    <td>
+                                        @using (Html.BeginForm("DeletePost", "Post", FormMethod.Post))
+                                        {
+                                        <td>@Html.Hidden("ID",row.postID)</td>
+                                        <td><button class="btn btn-outline-danger">Delete</button></td>
+
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
